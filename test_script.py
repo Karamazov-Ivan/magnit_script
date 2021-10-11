@@ -8,16 +8,16 @@ directory = settings.PATH
 # Сохраняем имена всех файлов в директории
 files = os.listdir(directory) 
 
-new_folder = settings.PATH + "/Готовые файлы"
+new_folder = settings.PATH + "/Готовые_файлы"
 
-if "Готовые файлы" in files:
-    inp = input("Папка 'Готовые файлы' уже существует. Перезаписать?\ny/n\n")
+if "Готовые_файлы" in files:
+    inp = input("Папка 'Готовые_файлы' уже существует. Перезаписать?\ny/n\n")
     if inp == "y":
         pass
     elif inp == "n":
         exit()
 
-if "Готовые файлы" not in files:
+if "Готовые_файлы" not in files:
     # Создаём новую папку
     os.mkdir(new_folder)   
 
