@@ -1,0 +1,1 @@
+PATH = 'C:\Python\magnit_script\test_folder'
